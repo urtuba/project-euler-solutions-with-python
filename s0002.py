@@ -1,4 +1,5 @@
-#2 Even Fibonacci Numbers
+# Euler 2 - Even Fibonacci Numbers
+# Github: urtuba
 
 def evenFibonacciGenerator(limit):
     fibTemp1 = 1
@@ -9,4 +10,6 @@ def evenFibonacciGenerator(limit):
             yield fibTemp1
 
 evenFibGen4m = evenFibonacciGenerator(4000000)
-print(sum(evenFibGen4m))
+result = sum(evenFibGen4m)
+
+print(result)
