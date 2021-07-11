@@ -1,7 +1,16 @@
 # Euler 2 - Even Fibonacci Numbers
 # Github: urtuba
 
-def evenFibonacciGenerator(limit):
+from typing import Generator
+
+
+def evenFibonacciGenerator(limit: int):
+    '''
+    The function to create a generator for even fibonacci numbers
+
+    :param limit: maximum number for the generator
+    :return: even fibonacci numbers generator
+    '''
     fibTemp1 = 1
     fibTemp2 = 2
     while (fibTemp2 < limit):
