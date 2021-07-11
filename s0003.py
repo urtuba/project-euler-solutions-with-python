@@ -29,6 +29,7 @@ def largest_prime_factor(num: int) -> int:
             if is_prime(i):
                 return i
     return 1
-
-result = largest_prime_factor(600851475143)
-print(result) 
+    
+if __name__ == '__main__':
+    result = largest_prime_factor(600851475143)
+    print(result) 

@@ -18,7 +18,8 @@ def evenFibonacciGenerator(limit: int):
         if fibTemp1 % 2 == 0:
             yield fibTemp1
 
-evenFibGen4m = evenFibonacciGenerator(4000000)
-result = sum(evenFibGen4m)
 
-print(result)
+if __name__ == '__main__':
+    evenFibGen4m = evenFibonacciGenerator(4000000)
+    result = sum(evenFibGen4m)
+    print(result)

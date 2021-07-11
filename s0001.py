@@ -15,10 +15,8 @@ def multiplesOf(x, y, r):
         if (i % x == 0) or (i % y == 0):
             yield i
 
-multiplesOf3and5 = multiplesOf(3, 5, 1000)
-print(type(multiplesOf3and5))
-
-result = sum(multiplesOf3and5)
-
-print(result)
+if __name__ == '__main__':
+    multiplesOf3and5 = multiplesOf(3, 5, 1000)
+    result = sum(multiplesOf3and5)
+    print(result)
 
