@@ -6,3 +6,4 @@ Solutions of Project Euler challenges using Python 3.9+
 2. Fibonacci Numbers
 3. Largest Prime Factor
 4. Largest Palindrome Product
+5. Smallest Multiple
