@@ -10,3 +10,4 @@ Solutions of Project Euler challenges using Python 3.9+
 6. Sum Square Difference
 7. Nth Prime Number
 8. Largest Product in Series
+9. Special Pythagorean Triplet
