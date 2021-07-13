@@ -8,3 +8,4 @@ Solutions of Project Euler challenges using Python 3.9+
 4. Largest Palindrome Product
 5. Smallest Multiple
 6. Sum Square Difference
+7. Nth Prime Number
