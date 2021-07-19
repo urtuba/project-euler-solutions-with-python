@@ -11,7 +11,7 @@ def evenFibonacciGenerator(limit: int):
     fib = 1
     fib_next = 2
     while (fib_next < limit):
-        fib, fib_next = fib_next, fibTemp2 + fib
+        fib, fib_next = fib_next, fib_next + fib
         if fib % 2 == 0:
             yield fib
 
