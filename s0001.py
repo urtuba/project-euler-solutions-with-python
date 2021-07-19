@@ -1,7 +1,7 @@
 # Euler 1 - Multiples of 3 and 5
 # Github: urtuba
 
-def multiplesOf(x, y, r):
+def multiples_of(x, y, r):
     '''
     multiplesOf function creates a generator which generates numbers divisible
     by two numbers.
@@ -16,7 +16,7 @@ def multiplesOf(x, y, r):
             yield i
 
 if __name__ == '__main__':
-    multiplesOf3and5 = multiplesOf(3, 5, 1000)
-    result = sum(multiplesOf3and5)
+    multiples_of_3_and_5 = multiples_of(3, 5, 1000)
+    result = sum(multiples_of_3_and_5)
     print(result)
 

@@ -1,9 +1,6 @@
 # Euler 2 - Even Fibonacci Numbers
 # Github: urtuba
 
-from typing import Generator
-
-
 def evenFibonacciGenerator(limit: int):
     '''
     The function to create a generator for even fibonacci numbers
@@ -11,15 +8,14 @@ def evenFibonacciGenerator(limit: int):
     :param limit: maximum number for the generator
     :return: even fibonacci numbers generator
     '''
-    fibTemp1 = 1
-    fibTemp2 = 2
-    while (fibTemp2 < limit):
-        fibTemp1, fibTemp2 = fibTemp2, fibTemp2 + fibTemp1
-        if fibTemp1 % 2 == 0:
-            yield fibTemp1
-
+    fib = 1
+    fib_next = 2
+    while (fib_next < limit):
+        fib, fib_next = fib_next, fibTemp2 + fib
+        if fib % 2 == 0:
+            yield fib
 
 if __name__ == '__main__':
-    evenFibGen4m = evenFibonacciGenerator(4000000)
-    result = sum(evenFibGen4m)
+    even_fib_generator_4m = evenFibonacciGenerator(4_000_000)
+    result = sum(even_fib_generator_4m)
     print(result)
