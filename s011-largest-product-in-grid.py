@@ -63,6 +63,6 @@ def largest_product_of_quarts(array_2d: np.ndarray) -> int:
     return max(rows_max, cols_max, diags_max)
 
 if __name__ == '__main__':
-    matrix = load_2d_array('011-input.txt')
+    matrix = load_2d_array('s011-input.txt')
     result = largest_product_of_quarts(matrix)
     print (result)
