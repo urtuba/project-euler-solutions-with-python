@@ -1,5 +1,5 @@
-# Euler 4 - Largest Palindrome Product
-# Github: urtuba
+# Project Euler 4 - Largest Palindrome Product
+# GitHub: urtuba
 
 def is_palindrome(num: int) -> bool:
     '''

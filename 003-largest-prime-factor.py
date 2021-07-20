@@ -1,5 +1,5 @@
-# Euler 3 - Largest Prime Factor
-# Github: urtuba
+# Project Euler 3 - Largest Prime Factor
+# GitHub: urtuba
 
 def is_prime(num: int) -> bool:
     '''

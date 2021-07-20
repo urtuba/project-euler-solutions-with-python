@@ -1,5 +1,5 @@
-# Euler 2 - Even Fibonacci Numbers
-# Github: urtuba
+# Project Euler 2 - Even Fibonacci Numbers
+# GitHub: urtuba
 
 def evenFibonacciGenerator(limit: int):
     '''

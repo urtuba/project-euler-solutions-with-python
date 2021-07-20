@@ -1,5 +1,5 @@
-# 8 - Largest Product in a Series
-# Github: urtuba
+# Project Euler 8 - Largest Product in a Series
+# GitHub: urtuba
 
 def largest_product_in_series(num:str, length:int) -> int:
     '''

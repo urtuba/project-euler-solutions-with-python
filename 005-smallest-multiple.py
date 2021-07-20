@@ -1,5 +1,5 @@
-# Euler 5 - Smallest Multiple
-# Github: urtuba
+# Project Euler 5 - Smallest Multiple
+# GitHub: urtuba
 
 from functools import reduce
 from collections import defaultdict

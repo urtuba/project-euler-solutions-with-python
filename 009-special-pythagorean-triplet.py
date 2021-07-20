@@ -1,5 +1,5 @@
-# Special Pythagorean Triplet
-# Github: urtuba
+# Project Euler 9 - Special Pythagorean Triplet
+# GitHub: urtuba
 
 def special_pythagorean_triplet(total:int) -> tuple:
     '''

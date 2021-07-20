@@ -1,5 +1,5 @@
-# Euler 1 - Multiples of 3 and 5
-# Github: urtuba
+# Project Euler 1 - Multiples of 3 and 5
+# GitHub: urtuba
 
 def multiples_of(x, y, r):
     '''

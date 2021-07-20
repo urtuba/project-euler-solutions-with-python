@@ -1,5 +1,5 @@
-# Euler 7 - Nth Prime Number
-# Github: urtuba
+# Project Euler 7 - Nth Prime Number
+# GitHub: urtuba
 
 import numpy as np
 MAX = 200000

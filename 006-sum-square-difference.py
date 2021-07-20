@@ -1,5 +1,5 @@
-# Euler 6 - Sum Square Difference
-# Github: urtuba
+# Project Euler 6 - Sum Square Difference
+# GitHub: urtuba
 
 def squares_difference(upto:int) -> int:
     '''
