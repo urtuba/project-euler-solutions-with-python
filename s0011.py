@@ -22,7 +22,8 @@ def largest_product_of_quarts(array_2d: np.ndarray) -> int:
     :param array_2d: 2d array, n x n.
     :return: largest product of 4 adjacent numbers
     '''
-
+    
+    # hidden helper functions
     def _max_quart_product_of_rows(array_2d: np.ndarray) -> int:
         dim = len(array_2d)
         maximum = 0
@@ -55,12 +56,13 @@ def largest_product_of_quarts(array_2d: np.ndarray) -> int:
                 if maximum < temp: maximum = temp
         return maximum
 
+    # actual function body
     rows_max = _max_quart_product_of_rows(array_2d)
     cols_max = _max_quart_product_of_cols(array_2d)
     diags_max = _max_quart_product_of_diags(array_2d)
     return max(rows_max, cols_max, diags_max)
 
 if __name__ == '__main__':
-    matrix = load_2d_array('s0011_input.txt')
+    matrix = load_2d_array('s0011-input.txt')
     result = largest_product_of_quarts(matrix)
     print (result)
