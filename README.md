@@ -11,3 +11,5 @@ Solutions of Project Euler challenges using Python 3.9+
 7. Nth Prime Number
 8. Largest Product in Series
 9. Special Pythagorean Triplet
+10. Summation of Primes
+11. Largest Product In a Grid
